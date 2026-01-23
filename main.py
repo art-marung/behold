@@ -20,13 +20,22 @@ app = FastAPI()
 logging.basicConfig(level=logging.INFO)
 
 # A finite set of contemplative messages.
-# Messages are intentionally simple and timeless.
+# Messages are intentionally calm, universal, and non-directive.
 MESSAGES = [
-    "Motion continues without confusion.",
-    "What exists does not require attention.",
-    "Order remains even when unseen.",
-    "Silence holds its own structure.",
-    "Balance does not announce itself."
+    "Light moves across distance without haste, arriving without needing to be noticed.",
+    "What holds the stars also steadies the smallest motion, quietly and without claim.",
+    "There is an order that continues even when no one pauses to observe it.",
+    "Silence is not empty; it carries its own structure and keeps it faithfully.",
+    "Balance does not announce itself, yet nothing escapes its reach.",
+    "Motion persists without confusion, guided by paths that do not need explanation.",
+    "Even what drifts remains within boundaries it does not have to name.",
+    "Distance does not weaken what is already held in place.",
+    "The unseen supports the seen without effort or demand.",
+    "Time advances without argument, allowing each moment to rest where it is.",
+    "Nothing here requires attention in order to continue being.",
+    "What is vast does not overwhelm what is small; both remain within the same order.",
+    "Stillness has shape, even when nothing appears to move.",
+    "Continuity does not depend on belief; it remains whether noticed or not."
 ]
 
 def log_event(event_name: str) -> None:
